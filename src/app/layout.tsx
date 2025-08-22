@@ -27,7 +27,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable}`}>
-                <QueryProvider>{children}</QueryProvider>
+                <QueryProvider>
+                    <main className="w-full min-h-screen">{children}</main>
+                </QueryProvider>
             </body>
         </html>
     );

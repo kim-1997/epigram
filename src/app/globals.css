@@ -1,3 +1,8 @@
+@import url("//fastly.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Iropke Batang", serif;
+}

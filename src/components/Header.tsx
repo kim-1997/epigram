@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
     const user = useAuthStore((state) => state.user);
     return (
-        <header className="border-b border-gray-300">
+        <header className="border-b border-gray-300 fixed w-full z-50 bg-white">
             <div className="max-w-[1600px] mx-auto flex justify-between items-center p-4">
                 <div>
                     <Image
